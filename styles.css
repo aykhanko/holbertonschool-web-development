@@ -1,1 +1,126 @@
-    
+body {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 1440px;
+    height: 1093px;
+    overflow-x: hidden;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.first-section-container {
+    text-align: center; 
+    padding-top: 50px;  
+}
+
+.first-section-container h1 {
+    margin-bottom: 20px; 
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.first-section-text p {
+    margin: 1px 0; 
+}
+
+.first-section-text {
+    display: flex;
+    color: white;
+    gap: 4rem;  
+    margin-left: 37rem;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.first-section-container button {
+    background: #C271FF;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 1px;
+    border-radius: 3rem;
+    padding: 15px 25px; 
+    font-family: Source Sans Pro;
+    font-size: 15px;     
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);  
+}
+
+.highlight {
+    color: #C271FF; 
+    font-size: 32px;
+    font-family: Source Sans Pro;
+}
+
+.normal-text {
+    color: #FFFFFF; 
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.first-section-pros-container {
+    text-align: center;
+}
+
+.first-section-pros-container h2 {
+    margin-top: 150px;
+}
+
+.first-section-pros-block {
+    display: flex;
+    justify-content: center;
+    gap: 9rem; 
+    margin-top: 6rem;
+}
+
+.pro-card {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-width: 200px;
+    font-family: Source Sans Pro;
+}
+
+.pro-card p {
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
